@@ -1,15 +1,18 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
 :root{
     --cor01: #4650BD;
     --cor02: #FFFFFF;
+    --cor03: #008364;
 }
 
 /*Início estilos main*/
 
 /*Início estilos section banner*/
 main .home-banner{
-    background-image: url(../imagens/Banner-home.png);
+    background-image: url(../imagens/imagens-mob/banner-home.png);
     width: 100vw;
     height: 270px;
     background-size: cover;
@@ -26,7 +29,7 @@ main .sobre{
     gap: 32px;
 }
 
-main img{
+main .sobre img{
     max-width: 312px;
     height: 320px;
     object-fit: cover;
@@ -67,6 +70,71 @@ main .sobre-chamada a{
 }
 /*Fim estilos section sobre*/
 
+/*Início estilos section line-up*/
+main .lineup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 24px;
+    padding-top: 32px;
+    gap: 32px;
+    text-align: center;
+}
+
+main .lineup > h1{
+    font-family: 'Calistoga', cursive;
+    font-weight: 400;
+}
+
+main .lineup .data{
+    background-color: var(--cor03);
+    padding: 16px;
+}
+
+main .lineup .data h2{
+    font-family: 'Calistoga', cursive;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+main .lineup .lineup-geral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 24px;
+    gap: 48px;
+}
+
+main .lineup h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+main .lineup h2{
+    font-size: 2rem;
+}
+
+main .lineup h3{
+    font-size: 1.5rem;
+}
+
+main .lineup h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+main .lineup .box-banda h1, h2, h3, h4{
+    line-height: 47px;
+}
+
+main .lineup img{
+    width: 100vw;
+    height: 338px;
+    object-fit: cover;
+}
+/*Fim estilos section line-up*/
 
 
 
