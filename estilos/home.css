@@ -25,6 +25,7 @@ main .home-banner{
 main .sobre{
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 32px 24px;
     gap: 32px;
 }
