@@ -16,6 +16,12 @@
     --cor02: #FFFFFF;
 }
 
+body{
+    background: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+}
+
+/* Inicio estilos header*/
+
 header{
     background-color: var(--cor01);
     display: flex;
@@ -71,3 +77,31 @@ header i{
     cursor: pointer;
     margin-right: 12px;
 }
+
+/*Fim estilos header*/
+
+/*Início estilos footer*/
+
+footer{
+    display: flex;
+    background-color: var(--cor01);
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 100px;
+}
+
+footer .icones{
+    font-size: 1.55rem;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+footer p{
+    font-size: 0.9rem;
+    line-height: 30px;
+}
+
+/*Fim estilos footer*/
