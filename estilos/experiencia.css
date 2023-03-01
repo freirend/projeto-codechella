@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.experi-banner{
+    background-image: url(../imagens/imagens-mob/experi-banner.png);
+    width: 100vw;
+    height: 270px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.experi-conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 32px 24px;
+}
+
+.experi-box{
+    padding: 32px 0px;
+}
+
+.experi-box h1{
+    font-size: 2rem;
+}
+
+.experi-box p{
+    font-size: 1.25rem;
+    line-height: 40px;
+}
