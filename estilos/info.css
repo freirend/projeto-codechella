@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
 .info-banner{
     background-image: url(../imagens/imagens-mob/info-banner.png);
     width: 100vw;
@@ -13,6 +15,15 @@
     flex-direction: column;
     align-items: center;
     padding: 48px 24px;
+}
+
+.perguntas-frequentes > h1{
+    font-size: 2.2rem;
+    text-align: center;
+    line-height: 41.6px;
+    font-family: 'Calistoga', cursive;
+    font-weight: 400;
+    margin-bottom: 41px;
 }
 
 
