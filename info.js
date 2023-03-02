@@ -1,14 +1,14 @@
 const pergunta = document.querySelectorAll('.pergunta')
 const resposta = document.querySelectorAll('.resposta')
-const arrow = document.querySelector('.uil-angle-down')
+const arrow = document.querySelectorAll('.uil-angle-down')
 
 function mostrar(id){
     if (resposta[id].className == "resposta hide"){
         resposta[id].classList.remove('hide')
-        arrow.style.transform = 'rotate(180deg)'
+        arrow[id].style.transform = 'rotate(180deg)'
     } else{
         resposta[id].classList.add('hide')
-        arrow.style.transform = 'rotate(0deg)'
+        arrow[id].style.transform = 'rotate(0deg)'
     }
 }
 
