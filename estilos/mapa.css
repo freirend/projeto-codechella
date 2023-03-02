@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.banner-mapa{
+    background-image: url(../imagens/imagens-mob/setores-mapa.png);
+    width: 100vw;
+    height: 270px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.setores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.retangulo{
+    display: inline-block;
+    height: 32px;
+    width:  32px;
+    border: 2px solid white;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
