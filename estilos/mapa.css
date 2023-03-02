@@ -19,17 +19,61 @@
     display: inline-block;
     height: 32px;
     width:  32px;
-    border: 2px solid white;
 }
 
-ul{
+.setores ul{
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-li{
+.setores li{
     display: flex;
     align-items: center;
     gap: 15px;
+}
+
+.ret1{
+    background-color: #0E7DF1;
+}
+
+.ret2{
+    background-color: #FE016E;
+}
+
+.ret3{
+    background-color: #01A89E;
+}
+
+.ret4{
+    background-color: #3F51B5;    
+}
+
+.ret5{
+    background-color: #0E7DF1;
+}
+
+.mais-detalhes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 24px;
+    gap: 32px;
+    text-align: center;
+}
+
+.mais-detalhes h1{
+    font-size: 2rem;
+}
+
+.box-detalhes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    max-width: 312px;
+    font-size: 1.25rem;
+    line-height: 40px;
 }
