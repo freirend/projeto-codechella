@@ -28,6 +28,9 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 17.4px 0;
+    position: fixed;
+    width: 100vw;
+    top: 0;
 }
 
 header img{
@@ -38,7 +41,7 @@ header img{
 
 header nav{
     position: absolute;
-    top: 6rem;
+    top: 6.25rem;
     width: 100vw;
     height: calc(100vh - 6rem);
     background-color: rgba(0, 0, 0, 0.325);
@@ -79,6 +82,14 @@ header i{
 }
 
 /*Fim estilos header*/
+
+/* Início estilos main */
+
+main{
+    margin-top: 99.6px;
+}
+
+/* Fim estilos main */
 
 /*Início estilos footer*/
 

@@ -37,6 +37,10 @@
 select{
     width: 312px;
     height: 48px;
+    color: #444444;
+    font-family: 'Calistoga';
+    font-size: 1.15rem;
+    padding-left: 5px;
 }
 
 .form-ingresso .box{
@@ -61,17 +65,4 @@ select{
 
 a i{
     font-size: 2rem;
-}
-
-.box-tipo select{
-    color: #444444;
-    font-size: 1.15rem;
-    padding-left: 5px;
-}
-
-.box-data input{
-    color: #444444;
-    font-family: 'Calistoga';
-    font-size: 1.15rem;
-    padding-left: 5px;
 }
