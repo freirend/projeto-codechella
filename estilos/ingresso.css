@@ -43,6 +43,11 @@ select{
     padding-left: 5px;
 }
 
+option{
+    background-color: white;
+    color: #444444;
+}
+
 .form-ingresso .box{
     display: flex;
     flex-direction: column;

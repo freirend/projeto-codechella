@@ -15,6 +15,8 @@
         <a href="index.html"><img src="imagens/imagens-mob/Logo.png" alt="Logo da codechella"></a>
         <nav id="nav">
             <ul>
+                <li><a href="index.html">Home</a></li>
+                <hr>
                 <li><a href="experiencia.html">A experiência</a></li>
                 <hr>
                 <li><a href="mapa.html">Mapa de Setores</a></li>
@@ -50,7 +52,9 @@
                 <div class="box box-tipo">
                     <label for="tipo">Tipo de ingresso</label>
                     <select name="tipo" id="tipo">
-                        <option value="Tipo de ingresso">Tipo de ingresso</option>
+                        <option value="">--- Tipo de ingresso ---</option>
+                        <option value="Ingresso Cortesia">Ingresso Cortesia</option>
+                        <option value="Ingresso VIP">Ingresso VIP</option>
                     </select>
                 </div>
 
@@ -59,7 +63,7 @@
                     <input type="date" name="data" id="data">
                 </div>
 
-                <a href="conversao.html">Avançar! <i class="uil uil-arrow-right"></i></a>
+                <a id="enviar" href="conversao.html">Avançar! <i class="uil uil-arrow-right"></i></a>
             </form>
         </section>
 
@@ -81,6 +85,6 @@
 
     </footer>
 
-    <script src="main.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
