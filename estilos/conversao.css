@@ -21,6 +21,7 @@
     font-size: 2rem;
     text-align: center;
     line-height: 38px; 
+    max-width: 600px;
 }
 
 .box-code{
@@ -30,7 +31,7 @@
     align-items: center;
     padding: 32px;
     gap: 32px;
-    max-width: 312px;
+    width: 312px;
     background: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15);
 }
@@ -65,4 +66,55 @@
     font-weight: 500;
     font-size: 1.15rem;
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    main{
+        margin-top: 154.2px;
+    }
+
+    main .banner-conversao{
+        background-image: url(../imagens/imagens-tab/banconv-tab.png);
+        height: 384px;
+    }
+
+    .box-code{
+        width: 600px;
+    }
+
+    .logos{
+        width: 800px;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    main {
+        margin-top: 99.6px;
+    }
+
+    main .banner-conversao{
+        background-image: url(../imagens/imagens-pc/banconv-pc.png);
+        height: 407px;
+    }
+
+    .box-ingresso h1{
+        max-width: 792px;
+    }
+
+    .box-code{
+        width: 792px;
+        height: 350px;
+        align-items: start;
+    }
+
+    .ingresso{
+        flex-direction: row;
+    }
+
+    .logos{
+        width: 740px;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
 }

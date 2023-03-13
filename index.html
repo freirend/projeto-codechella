@@ -36,9 +36,12 @@
         </section>
 
         <section class="sobre">
-            <img src="imagens/imagens-mob/musicos-home.png" alt="">
+            <picture>
+                <source media="(max-width:768px )" srcset="imagens/imagens-mob/home-mob.png" type="image/png">
+                <img src="imagens/imagens-tab/home-tab-pc.png" alt="">
+            </picture>
             <div class="sobre-chamada">
-                <h1> &lt; 11 e 12 de Março &gt;
+                <h1> &lt; 11 e 12 de Março &gt; <br>
                     Aluródromo de São Paulo</h1>
                 <p>Hora de programar nossa memória com novas lembranças! Uma nova experiência sobre música, linguagens e, claro, tecnologia! Somos um festival diverso, com vários artistas e referências. Divirta-se!</p>
                 <a href="ingresso.html">
@@ -56,29 +59,36 @@
                 <div class="box-banda">
                     <h1>System of a DOM</h1>
                 </div>
-                <div class="box-banda">
-                    <h2>Python Maiden</h2>
-                    <h2>Apollo Client 2001</h2>
+                <div class="boxb-pc">
+                    <div class="box-banda">
+                        <h2>Python Maiden</h2>
+                        <h2>Apollo Client 2001</h2>
+                    </div>
+                    <div class="box-banda">
+                        <h2>Bon Java</h2>
+                        <h2>NickCallback</h2>
+                    </div>
                 </div>
-                <div class="box-banda">
-                    <h2>Bon Java</h2>
-                    <h2>NickCallback</h2>
+
+                <div class="boxb-pc">
+                    <div class="box-banda">
+                        <h3>Linkin Promises</h3>
+                        <h3>Fullstack Fighters</h3>
+                    </div>
+                    <div class="box-banda">
+                        <h3>Papa React</h3>
+                        <h3>Angular in Chains</h3>
+                    </div>
                 </div>
-                <div class="box-banda">
-                    <h3>Linkin Promises</h3>
-                    <h3>Fullstack Fighters</h3>
-                </div>
-                <div class="box-banda">
-                    <h3>Papa React</h3>
-                    <h3>Angular in Chains</h3>
-                </div>
-                <div class="box-banda">
-                    <h4>Agnostic Front-end</h4>
-                    <h4>SlipkNode</h4>
-                </div>
-                <div class="box-banda">
-                    <h4>Pink Flutter</h4>
-                    <h4>Kiss</h4>
+                <div class="boxb-pc">
+                    <div class="box-banda">
+                        <h4>Agnostic Front-end</h4>
+                        <h4>SlipkNode</h4>
+                    </div>
+                    <div class="box-banda">
+                        <h4>Pink Flutter</h4>
+                        <h4>Kiss</h4>
+                    </div>
                 </div>
             </div>
 
@@ -89,14 +99,16 @@
                 <div class="box-banda">
                     <h1>Lana Del Ploy</h1>
                 </div>
-                <div class="box-banda">
-                    <h2>Dua Lib</h2>
-                    <h2>The Backnd</h2>
-                    <h2>CSS Styles</h2>
-                </div>
-                <div class="box-banda">
-                    <h2>ArrayAna Grande</h2>
-                    <h2>DJ Query</h2>
+                <div class="boxb-pc">
+                    <div class="box-banda">
+                        <h2>Dua Lib</h2>
+                        <h2>The Backnd</h2>
+                        <h2>CSS Styles</h2>
+                    </div>
+                    <div class="box-banda">
+                        <h2>ArrayAna Grande</h2>
+                        <h2>DJ Query</h2>
+                    </div>
                 </div>
                 <div class="box-banda">
                     <h3>Json Derulo</h3>
@@ -109,7 +121,11 @@
                     <h4>Rubycat Dolls</h4>
                 </div>
             </div>
-            <img src="imagens/imagens-mob/home-img.png" alt="">
+            <picture>
+                <source media="(max-width: 768px)" srcset="imagens/imagens-mob/home-img.png" type="image/png">
+                <source media="(max-width: 1440px)" srcset="imagens/imagens-tab/homejumbo-tab.png" type="image/png">
+                <img src="imagens/imagens-pc/homejumbo-pc.png" alt="">
+            </picture>
         </section>
     </main>
 
@@ -117,15 +133,19 @@
 
         <div>
             <a href="#"><img src="imagens/imagens-mob/Logo.png" alt="logo da codechella"></a>
-            <p>Acesse nossas redes:</p>
-            <div class="icones">
-                <a href="#"><i class="uil uil-whatsapp"></i></a>
-                <a href="#"><i class="uil uil-twitter-alt"></i></a>
-                <a href="#"><i class="uil uil-instagram"></i></a>
-                <a href="#"><i class="uil uil-youtube"></i></a>
+            <div class="box-icones">
+                <p>Acesse nossas redes:</p>
+                <div class="icones">
+                    <a href="#"><i class="uil uil-whatsapp"></i></a>
+                    <a href="#"><i class="uil uil-twitter-alt"></i></a>
+                    <a href="#"><i class="uil uil-instagram"></i></a>
+                    <a href="#"><i class="uil uil-youtube"></i></a>
+                </div>
             </div>
         </div>
-            <p>Desenvolvido por Lucas Freire. Projeto fictício sem fins comerciais.</p>
+            <div class="dev">
+                <p>Desenvolvido por Lucas Freire. Projeto fictício sem fins comerciais.</p>
+            </div>
 
     </footer>
 

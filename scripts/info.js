@@ -5,18 +5,16 @@ const arrow = document.querySelectorAll('.uil-angle-down')
 function mostrar(id){
     if (resposta[id].className == "resposta hide"){
         resposta[id].classList.remove('hide')
-        /*arrow[id].style.transform = 'rotate(180deg)'*/
         arrow[id].classList.toggle('uil-angle-up')
     } else{
         resposta[id].classList.add('hide')
-        /*arrow[id].style.transform = 'rotate(0deg)'*/
         arrow[id].classList.remove('uil-angle-up')
     }
 }
 
 for (c = 0; c < pergunta.length; c++){
     pergunta[c].addEventListener('click', (param)=>{
-        mostrar(param.target.parentElement.id)
+        mostrar(param.target.id)
     })
 }
 

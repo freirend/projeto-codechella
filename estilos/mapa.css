@@ -13,6 +13,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
+}
+
+.box-legenda h1{
+    font-size: 2rem;
+    margin-bottom: 30px;
 }
 
 .retangulo{
@@ -73,7 +79,54 @@
     align-items: center;
     justify-content: center;
     gap: 24px;
-    max-width: 312px;
+    max-width: 648px;
     font-size: 1.25rem;
     line-height: 40px;
+}
+
+@media (min-width: 768px) {
+    main{
+        margin-top: 154.2px;
+    }
+
+    main .banner-mapa{
+        background-image: url(../imagens/imagens-tab/banmapa-tb.png);
+        height: 384px;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    main {
+        margin-top: 99.6px;
+    }
+
+    main .banner-mapa{
+        background-image: url(../imagens/imagens-pc/banmap-pc.png);
+        height: 407px;
+    }
+
+    .setores{
+        flex-direction: row;
+        gap: 48px;
+    }
+
+    .titulo-mdetalhes{
+        text-align: center;
+    }
+
+    .box-detalhes{
+        width: 383px;
+        height: 600px;
+        justify-content: start;
+    }
+
+    .box-personalizado{
+        display: flex;
+        justify-content: end;
+    }
+
+    .mais-detalhes{
+        flex-direction: row;
+    }
 }

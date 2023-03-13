@@ -103,6 +103,12 @@ footer{
     padding: 30px 100px;
 }
 
+footer .box-icones{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 footer .icones{
     font-size: 1.55rem;
     display: flex;
@@ -116,3 +122,70 @@ footer p{
 }
 
 /*Fim estilos footer*/
+
+@media (min-width: 768px) {
+
+    header{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    header nav{
+        position: static;
+        height: 0;
+    }
+
+    header nav ul{
+        flex-direction: row;
+        width: 100vw;
+        height: 40px;
+        border-top: none;
+        justify-content: center;
+        padding-top: 10px;
+        padding-bottom: 40px;
+        gap: 46px;
+    }
+
+    hr{
+        display: none;
+    }
+
+    header .uil-bars{
+        display: none;
+    }
+}
+
+@media (min-width: 1440px) {
+    header{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    header img{
+        width: 222px;
+        height: 60.8px;
+        margin-left: 70px;
+    }
+
+    header nav ul{
+        padding-bottom: 30px;
+        padding-top: 0;
+        width: 800px;
+    }
+
+    footer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    footer .dev{
+        width: 250px;
+        text-align: left;
+    }
+
+    footer .box-icones{
+        display: flex;
+        flex-direction: row;
+    }
+}

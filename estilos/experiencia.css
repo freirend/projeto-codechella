@@ -29,3 +29,51 @@
     font-size: 1.25rem;
     line-height: 40px;
 }
+
+@media (min-width: 768px) {
+    .experi-banner{
+        background-image: url(../imagens/imagens-tab/banexp-tablet.png);
+        height: 384px;
+    }
+
+    main{
+        margin-top: 154.2px;
+    }
+
+    main article .experi-box{
+        width: 610px;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    main {
+        margin-top: 99.6px;
+    }
+
+    main .experi-conteudo{
+        gap: 80px;
+    }
+
+    .experi-banner{
+        background-image: url(../imagens/imagens-pc/banexp-pc.png);
+        height: 407px;
+    }
+
+    main article{
+        display: flex;
+        gap: 32px;
+    }
+
+    main .art-reverse{
+        flex-direction: row-reverse;
+    }
+
+    main .art-reverse .experi-box{
+        text-align: right;
+    }
+
+    main .experi-box{
+        text-align: left;
+    }
+}

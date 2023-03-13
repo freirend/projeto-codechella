@@ -26,12 +26,20 @@
     margin-bottom: 41px;
 }
 
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .pergunta{
     display: flex;
     background: #4650BD;
     cursor: pointer;
     align-items: center;
+    justify-content: space-between;
+    width: 312px;
 }
 
 .pergunta h1, .uil-angle-down{
@@ -50,6 +58,7 @@
     padding: 0 16px;
     max-height: 280px;
     transition: .5s;
+    width: 312px;
 }
 
 .resposta p{
@@ -62,3 +71,36 @@
     pointer-events: none;
     opacity: 0;
   }
+
+  @media (min-width: 768px) {
+    main{
+        margin-top: 154.2px;
+    }
+
+    main .info-banner{
+        background-image: url(../imagens/imagens-tab/baninfo-tab.png);
+        height: 384px;
+    }
+
+    .resposta,
+    .pergunta{
+        width: 648px;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    main {
+        margin-top: 99.6px;
+    }
+
+    main .info-banner{
+        background-image: url(../imagens/imagens-pc/baninfo-pc.png);
+        height: 407px;
+    }
+
+    .resposta,
+    .pergunta{
+        width: 996px;
+    }
+}

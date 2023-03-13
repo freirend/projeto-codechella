@@ -36,25 +36,32 @@
         </section>
 
         <section class="setores">
-            <img src="imagens/imagens-mob/setores1.png" alt="">
-            <ul>
-                <li><span class="retangulo ret1"></span>Pista Premium</li>
-                <li><span class="retangulo ret2"></span>Pista Comum</li>
-                <li><span class="retangulo ret3"></span>Cadeiras térreo</li>
-                <li><span class="retangulo ret4"></span>Cadeiras superiores</li>
-                <li><span class="retangulo ret5"></span>Rampas</li>
-            </ul>
+            <picture>
+                <source media="(max-width: 768px)" srcset="imagens/imagens-mob/setores1.png" type="image/png">
+                <img src="imagens/imagens-tab/mapa0-tab-pc.png" alt="">
+            </picture>
+
+            <div class="box-legenda">
+                <h1>Legenda:</h1>
+                <ul>
+                    <li><span class="retangulo ret1"></span>Pista Premium</li>
+                    <li><span class="retangulo ret2"></span>Pista Comum</li>
+                    <li><span class="retangulo ret3"></span>Cadeiras térreo</li>
+                    <li><span class="retangulo ret4"></span>Cadeiras superiores</li>
+                    <li><span class="retangulo ret5"></span>Rampas</li>
+                </ul>
+            </div>
         </section>
 
+        <h1 class="titulo-mdetalhes">Mais detalhes sobre os setores:</h1>
         <section class="mais-detalhes">
-            <h1>Mais detalhes sobre os setores:</h1>
             <article class="box-detalhes">
                 <img src="imagens/imagens-mob/setores2.png" alt="">
                 <h1>Pista</h1>
                 <p>Pista convencional, atendida pelos bares e banheiros das laterais do estádio. Espaço amplo, com local para sentar e descansar. Separada da pista premium por uma grade.</p>
             </article>
 
-            <article class="box-detalhes">
+            <article class="box-detalhes box-personalizado">
                 <img src="imagens/imagens-mob/setores3.png" alt="">
                 <h1>Pista Premium</h1>
                 <p>Pista mais próxima do palco, com acesso muito próximo a banheiros e bares num raio de 100m. Todas as pessoas idosas e/ou com deficiência têm direito a acesso gratuito a essa área.</p>
@@ -74,15 +81,19 @@
 
         <div>
             <img src="imagens/imagens-mob/Logo.png" alt="logo da codechella">
-            <p>Acesse nossas redes:</p>
-            <div class="icones">
-                <a href="#"><i class="uil uil-whatsapp"></i></a>
-                <a href="#"><i class="uil uil-twitter-alt"></i></a>
-                <a href="#"><i class="uil uil-instagram"></i></a>
-                <a href="#"><i class="uil uil-youtube"></i></a>
+            <div class="box-icones">
+                <p>Acesse nossas redes:</p>
+                <div class="icones">
+                    <a href="#"><i class="uil uil-whatsapp"></i></a>
+                    <a href="#"><i class="uil uil-twitter-alt"></i></a>
+                    <a href="#"><i class="uil uil-instagram"></i></a>
+                    <a href="#"><i class="uil uil-youtube"></i></a>
+                </div>
             </div>
         </div>
-            <p>Desenvolvido por Lucas Freire. Projeto fictício sem fins comerciais.</p>
+            <div class="dev">
+                <p>Desenvolvido por Lucas Freire. Projeto fictício sem fins comerciais.</p>
+            </div>
 
     </footer>
 

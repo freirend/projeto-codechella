@@ -31,8 +31,6 @@ main .sobre{
 }
 
 main .sobre img{
-    max-width: 312px;
-    height: 320px;
     object-fit: cover;
     border-radius: 16px;
 }
@@ -59,9 +57,10 @@ main .sobre-chamada p{
 main .sobre-chamada a{
     display: flex;
     background-color: var(--cor01);
-    max-width: 312px;
+    width: 312px;
     height: 52px;
     font-size: 1.3rem;
+    align-self: center;
     font-weight: 700;
     align-items: center;
     justify-content: center;
@@ -137,12 +136,53 @@ main .lineup img{
 }
 /*Fim estilos section line-up*/
 
-
-
-
-
-
-
-
-
 /*Fim estilos main*/
+
+@media (min-width: 768px) {
+
+    main{
+        margin-top: 154.2px;
+    }
+
+    main .home-banner{
+        background-image: url(../imagens/imagens-tab/banhome-tab.png);
+        height: 384px;
+    }
+
+    main .sobre-chamada{
+        max-width: 600px;
+        text-align: center;
+    }
+
+    main .box-banda{
+        display: flex;
+        gap: 32px;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    main {
+        margin-top: 99.6px;
+    }
+
+    main .home-banner{
+        background-image: url(../imagens/imagens-pc/banhome-pc.png);
+        height: 407px;
+    }
+
+    main .sobre{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .sobre-chamada{
+        justify-content: center;
+    }
+
+    main .boxb-pc{
+        display: flex;
+        gap: 32px;
+    }
+}
