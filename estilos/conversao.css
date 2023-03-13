@@ -112,6 +112,10 @@
         flex-direction: row;
     }
 
+    .ingresso p{
+        text-align: left;
+    }
+
     .logos{
         width: 740px;
         justify-content: space-between;
