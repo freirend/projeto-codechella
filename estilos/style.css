@@ -11,6 +11,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+::-webkit-scrollbar{
+    width: 0px;
+}
+
 :root{
     --cor01: #4650BD;
     --cor02: #FFFFFF;
